@@ -1,0 +1,6 @@
+run_name,version_file_path,deploy_path,deploy_script,start_script,pre_script,post_script,status,test_plan_path,initial_delay,startup_time,hold_time,shutdown_time,note
+VMG1_NOWM,/home/test/ds2/ds2_org/,/var/lib/tomcat7/webapps/ROOT/ds2,,,ls,/home/tes/ds2/script/auto_allclean.sh,checked,g:\jmeter\apache-jmeter-2.13\DS2test\auto_test\DS2-vmtest.jmx,,,,,
+VMG2_NOWM,/home/test/ds2/ds2_org/,/var/lib/tomcat7/webapps/ROOT/ds2,,,ls,/home/tes/ds2/script/auto_allclean.sh,checked,g:\jmeter\apache-jmeter-2.13\DS2test\auto_test\DS2-vmtest.jmx,,,,,
+VMG3_NOWM,/home/test/ds2/ds2_org/,/var/lib/tomcat7/webapps/ROOT/ds2,,,ls,/home/tes/ds2/script/auto_allclean.sh,checked,g:\jmeter\apache-jmeter-2.13\DS2test\auto_test\DS2-vmtest.jmx,,,,,
+VMG4_NOWM,/home/test/ds2/ds2_org/,/var/lib/tomcat7/webapps/ROOT/ds2,,,ls,/home/tes/ds2/script/auto_allclean.sh,checked,g:\jmeter\apache-jmeter-2.13\DS2test\auto_test\DS2-vmtest.jmx,,,,,
+VMG5_NOWM,/home/test/ds2/ds2_org/,/var/lib/tomcat7/webapps/ROOT/ds2,,,ls,/home/tes/ds2/script/auto_allclean.sh,checked,g:\jmeter\apache-jmeter-2.13\DS2test\auto_test\DS2-vmtest.jmx,,,,,

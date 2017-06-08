@@ -1,0 +1,36 @@
+# hostname;interval;timestamp;CPU;%usr;%nice;%sys;%iowait;%steal;%irq;%soft;%guest;%gnice;%idle
+# hostname;interval;timestamp;proc/s;cswch/s
+# hostname;interval;timestamp;INTR;intr/s
+# hostname;interval;timestamp;pswpin/s;pswpout/s
+# hostname;interval;timestamp;pgpgin/s;pgpgout/s;fault/s;majflt/s;pgfree/s;pgscank/s;pgscand/s;pgsteal/s;%vmeff
+# hostname;interval;timestamp;tps;rtps;wtps;bread/s;bwrtn/s
+# hostname;interval;timestamp;frmpg/s;bufpg/s;campg/s
+# hostname;interval;timestamp;kbmemfree;kbmemused;%memused;kbbuffers;kbcached;kbcommit;%commit;kbactive;kbinact;kbdirty
+# hostname;interval;timestamp;kbswpfree;kbswpused;%swpused;kbswpcad;%swpcad
+# hostname;interval;timestamp;kbhugfree;kbhugused;%hugused
+# hostname;interval;timestamp;dentunusd;file-nr;inode-nr;pty-nr
+# hostname;interval;timestamp;runq-sz;plist-sz;ldavg-1;ldavg-5;ldavg-15;blocked
+# hostname;interval;timestamp;TTY;rcvin/s;txmtin/s;framerr/s;prtyerr/s;brk/s;ovrun/s
+# hostname;interval;timestamp;DEV;tps;rd_sec/s;wr_sec/s;avgrq-sz;avgqu-sz;await;svctm;%util
+# hostname;interval;timestamp;IFACE;rxpck/s;txpck/s;rxkB/s;txkB/s;rxcmp/s;txcmp/s;rxmcst/s;%ifutil
+# hostname;interval;timestamp;IFACE;rxerr/s;txerr/s;coll/s;rxdrop/s;txdrop/s;txcarr/s;rxfram/s;rxfifo/s;txfifo/s
+# hostname;interval;timestamp;call/s;retrans/s;read/s;write/s;access/s;getatt/s
+# hostname;interval;timestamp;scall/s;badcall/s;packet/s;udp/s;tcp/s;hit/s;miss/s;sread/s;swrite/s;saccess/s;sgetatt/s
+# hostname;interval;timestamp;totsck;tcpsck;udpsck;rawsck;ip-frag;tcp-tw
+# hostname;interval;timestamp;irec/s;fwddgm/s;idel/s;orq/s;asmrq/s;asmok/s;fragok/s;fragcrt/s
+# hostname;interval;timestamp;ihdrerr/s;iadrerr/s;iukwnpr/s;idisc/s;odisc/s;onort/s;asmf/s;fragf/s
+# hostname;interval;timestamp;imsg/s;omsg/s;iech/s;iechr/s;oech/s;oechr/s;itm/s;itmr/s;otm/s;otmr/s;iadrmk/s;iadrmkr/s;oadrmk/s;oadrmkr/s
+# hostname;interval;timestamp;ierr/s;oerr/s;idstunr/s;odstunr/s;itmex/s;otmex/s;iparmpb/s;oparmpb/s;isrcq/s;osrcq/s;iredir/s;oredir/s
+# hostname;interval;timestamp;active/s;passive/s;iseg/s;oseg/s
+# hostname;interval;timestamp;atmptf/s;estres/s;retrans/s;isegerr/s;orsts/s
+# hostname;interval;timestamp;idgm/s;odgm/s;noport/s;idgmerr/s
+# hostname;interval;timestamp;tcp6sck;udp6sck;raw6sck;ip6-frag
+# hostname;interval;timestamp;irec6/s;fwddgm6/s;idel6/s;orq6/s;asmrq6/s;asmok6/s;imcpck6/s;omcpck6/s;fragok6/s;fragcr6/s
+# hostname;interval;timestamp;ihdrer6/s;iadrer6/s;iukwnp6/s;i2big6/s;idisc6/s;odisc6/s;inort6/s;onort6/s;asmf6/s;fragf6/s;itrpck6/s
+# hostname;interval;timestamp;imsg6/s;omsg6/s;iech6/s;iechr6/s;oechr6/s;igmbq6/s;igmbr6/s;ogmbr6/s;igmbrd6/s;ogmbrd6/s;irtsol6/s;ortsol6/s;irtad6/s;inbsol6/s;onbsol6/s;inbad6/s;onbad6/s
+# hostname;interval;timestamp;ierr6/s;idtunr6/s;odtunr6/s;itmex6/s;otmex6/s;iprmpb6/s;oprmpb6/s;iredir6/s;oredir6/s;ipck2b6/s;opck2b6/s
+# hostname;interval;timestamp;idgm6/s;odgm6/s;noport6/s;idgmer6/s
+IGNORE # hostname;interval;timestamp;CPU;MHz
+IGNORE # hostname;interval;timestamp;TEMP;DEVICE;degC;%temp
+IGNORE # hostname;interval;timestamp;manufact;product;BUS;idvendor;idprod;maxpower
+IGNORE # hostname;interval;timestamp;FILESYSTEM;MBfsfree;MBfsused;%fsused;%ufsused;Ifree;Iused;%Iused

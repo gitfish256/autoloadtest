@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1dd690af-8f22-4d29-9c33-96e142812a79}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>controller\test_list_runner.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="config\config_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="config\key_mng.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="config\config_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="config\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controller\test_list_runner.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_processor\summary_controller.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="perf_parser\sadf_parser.py" />
+    <Compile Include="perf_parser\perf_parser_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="perf_parser\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="post_processor\post_processor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="post_processor\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pre_processor\pre_processor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pre_processor\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="result_analyzer\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\multi_connector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\remote_connector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controller\controller_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\utility_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\test_list_connector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\utility.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\workload_info_connector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controller\__init__.py" />
+    <Compile Include="data_processor\data_downloader.py" />
+    <Compile Include="data_processor\data_parse_controller.py" />
+    <Compile Include="result_analyzer\result_analyzer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_processor\data_processor_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_processor\__init__.py" />
+    <Compile Include="plan_encoder\jmeter_encoder.py" />
+    <Compile Include="plan_encoder\plan_executer.py" />
+    <Compile Include="plan_encoder\plan_encoder_test.py" />
+    <Compile Include="plan_encoder\__init__.py" />
+    <Compile Include="result_analyzer\result_analyzer_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="utility\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
+    <Folder Include="controller" />
+    <Folder Include="data_processor" />
+    <Folder Include="perf_parser\" />
+    <Folder Include="plan_encoder" />
+    <Folder Include="post_processor\" />
+    <Folder Include="pre_processor\" />
+    <Folder Include="result_analyzer\" />
+    <Folder Include="utility\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
